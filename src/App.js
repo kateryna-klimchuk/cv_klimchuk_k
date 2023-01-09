@@ -1,36 +1,20 @@
-// import logo from "./logo.svg";
 import "./App.css";
-import Education from "./Components/Education/index.tsx";
-import SideBar from "./Components/SideBar/index.tsx";
-import Summary from "./Components/Summary/index.tsx";
-import Projects from "./Components/Projects/index.tsx";
-import Experience from "./Components/Experience/index.tsx";
+import Education from "./Components/Education/index.jsx";
+import SideBar from "./Components/SideBar/index.jsx";
+import Summary from "./Components/Summary/index.jsx";
+import Projects from "./Components/Projects/index.jsx";
+import Experience from "./Components/Experience/index.jsx";
 
 function App() {
   return (
-    <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <h1 className="text-3xl font-bold text-red-400 underline">
-          Hello world!
-        </h1>
-      </header> */}
+    <div className="flex bg-pink-50 max-w-6xl ml-auto mr-auto shadow-lg">
       <SideBar />
-      <Summary />
-      <Projects />
-      <Experience />
-      <Education />
+      <div className="p-4 w-2/3">
+        <Summary />
+        <Projects />
+        <Experience />
+        <Education />
+      </div>
     </div>
   );
 }

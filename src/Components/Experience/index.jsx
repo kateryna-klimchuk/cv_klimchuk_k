@@ -2,17 +2,20 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <ul>
-      <h2>Work Experience</h2>
+    <ul className=" mb-2">
+      <h2 className="bg-slate-200 max-w-max px-1 mb-1 rounded-sm">
+        Work Experience
+      </h2>
       <li>
         <h3>Simbuka</h3>
         <p>Front-end developer</p>
         <h4>September 2022 - current time</h4>
         <ul>
           <li>
-            Using ReactJS, Typescript, Node.js, Remix, Tailwind CSS, Docker,
-            GraphQl, Cypress, Heroku, work with database: Supabase, MongoDB and
-            different libraries to bring concepts to life;
+            Using ReactJS, Typescript, Node.js, Remix, Tailwind CSS, Storybook,
+            Docker, GraphQl, Cypress, Heroku, work with database: Supabase,
+            Prisma, MongoDB, CMS systems and different libraries to bring
+            concepts to life;
           </li>
           <li>Developing and maintaining the user interface;</li>
           <li>Developing and maintaining own component library;</li>
