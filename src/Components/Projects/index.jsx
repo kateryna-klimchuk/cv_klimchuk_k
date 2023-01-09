@@ -3,11 +3,11 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div className="mb-2">
+    <div className="mb-2 border-b-2">
       <h2 className="bg-slate-200 max-w-max px-1 mb-1 rounded-sm">
         Project experience
       </h2>
-      <ul className="grid grid-cols-2 gap-4">
+      <ul className="grid md:grid-cols-2 gap-4 p-2">
         <li>
           <a
             href="https://kateryna-klimchuk.github.io/goit-markup-hw-08/"

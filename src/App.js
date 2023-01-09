@@ -7,9 +7,9 @@ import Experience from "./Components/Experience/index.jsx";
 
 function App() {
   return (
-    <div className="flex bg-pink-50 max-w-6xl ml-auto mr-auto shadow-lg">
+    <div className="flex bg-pink-50 max-w-6xl ml-auto mr-auto shadow-lg text-xs sm:text-sm md:text-base">
       <SideBar />
-      <div className="p-4 w-2/3">
+      <div className="p-4 w-1/2 sm:w-2/3">
         <Summary />
         <Projects />
         <Experience />

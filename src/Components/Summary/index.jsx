@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Summary() {
   return (
-    <div className="border shadow-lg mb-4 px-2 rounded-sm bg-slate-200">
+    <div className="border shadow-lg mb-4 p-2 rounded-sm bg-slate-200">
       <h1 className="font-medium text-lg">Klimchuk Kateryna</h1>
       <p>
         I am a Junior Front-end developer. I focus on HTML5, CSS3, JS, React.
