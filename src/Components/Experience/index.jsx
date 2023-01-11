@@ -7,11 +7,11 @@ export default function Experience() {
         Work Experience
       </h2>
       <ul className="p-2">
-        <li>
-          <h3>Simbuka</h3>
+        <li className="pb-4 border-b-2">
+          <h3 className="font-medium">Simbuka</h3>
           <p>Front-end developer</p>
           <h4>September 2022 - current time</h4>
-          <ul>
+          <ul className="list-disc pl-4">
             <li>
               Using ReactJS, Typescript, Node.js, Remix, Tailwind CSS,
               Storybook, Docker, GraphQl, Cypress, Heroku, work with database:
@@ -28,11 +28,11 @@ export default function Experience() {
           </ul>
         </li>
         <li></li>
-        <li>
-          <h3>Freelance - self-employed</h3>
+        <li className="pb-4 border-b-2">
+          <h3 className="font-medium pt-2">Freelance - self-employed</h3>
           <p>Front-end developer</p>
           <h4>January 2022 - September 2022</h4>
-          <ul>
+          <ul className="list-disc pl-4">
             <li>
               Using HTML, JS, CSS/SASS, Webpack, Node.js and different libraries
               to bring concepts to life;
@@ -42,10 +42,10 @@ export default function Experience() {
           </ul>
         </li>
         <li>
-          <h3>Company - LLO "Wine Bureau"</h3>
+          <h3 className="font-medium pt-2">Company - LLO "Wine Bureau"</h3>
           <p>Sales manager in the delivery department</p>
           <h4>March 2017 - March 2021</h4>
-          <ul>
+          <ul className="list-disc pl-4">
             <li>Maintaining positive relationships with customers;</li>
             <li>
               Leading the service delivery team, managing conflict and ensuring

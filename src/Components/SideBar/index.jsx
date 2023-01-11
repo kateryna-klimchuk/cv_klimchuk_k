@@ -23,7 +23,12 @@ export default function SideBar() {
             </h3>
             <ul className="pb-2 border-b-2">
               <li>
-                <a href="tel:+380663460366">+38 066 346 03 66</a>
+                <a
+                  href="tel:+380663460366"
+                  title="This is some text I want to display. "
+                >
+                  +38 066 346 03 66
+                </a>
               </li>
               <li>
                 <a
@@ -56,7 +61,7 @@ export default function SideBar() {
               <FiLinkedin className="mr-1" />
 
               <a
-                href="http://linkedin.com/in/katherine-klimchuk-5202b7164"
+                href="https://www.linkedin.com/in/kateryna-klimchuk-5202b7164/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -82,7 +87,7 @@ export default function SideBar() {
             Tech skills
           </h3>
 
-          <ul className="list-disc pl-2">
+          <ul className="list-disc pl-4">
             <li>HTML5, CSS3, SASS, Tailwind CSS, styled-component</li>
             <li>JavaScript, ReactJS, NodeJS, Typescript, React native</li>
             <li>GIT, Cypress, GraphQl, Remix, WebPack, Parcel, Docker</li>
@@ -95,7 +100,7 @@ export default function SideBar() {
           <h3 className="bg-pink-50 max-w-max my-2 px-1 rounded-sm">
             Soft skills
           </h3>
-          <ul className="list-disc pl-2">
+          <ul className="list-disc pl-4">
             <li>Teamwork</li>
             <li>Decision-making</li>
             <li>Communication</li>
@@ -107,10 +112,10 @@ export default function SideBar() {
           <h3 className="bg-pink-50 max-w-max my-2 px-1 rounded-sm">
             Languages
           </h3>
-          <ul className="list-disc pl-2">
+          <ul className="list-disc pl-4">
             <li>English - level B2</li>
             <li>Ukrainian - Native</li>
-            <li>Russian - Native</li>
+            <li>Russian - Fluent</li>
           </ul>
         </div>
       </div>
